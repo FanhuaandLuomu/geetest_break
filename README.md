@@ -17,6 +17,7 @@
  # 在线超详细教程（图文并茂）已发表在知乎
  
    https://zhuanlan.zhihu.com/p/28492887
+   http://www.jianshu.com/p/3726581d218a
    
  # 为了下载方便，我也上传了PDF版本供下载~~~
  ## 觉得不错帮忙Star一下
