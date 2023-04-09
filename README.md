@@ -1,33 +1,30 @@
-# geetest_break
-# 极验验证码破解-源码+破解手册
-  说明：与网上已有的使用selenium自动化浏览器的方法相比，本方法更便捷，无需安装额外模块，只使用Python原生requests和lxml。
-  此外，selenium方法太依赖于浏览器，稍有不慎，便得不到想要的移动方式。
-  
- # 与selenium方法相比优点如下：
-   1. 安装方便，python或anaconda即可；
-   
-   2. 不依赖于浏览器，模拟发包请求，快捷，
-   
-   3. 识别率极高（使用经过验证的轨迹数据），selenium方法我也试过，即使能够移动滑块至缺口处，很多情况会被远程服务器识别出是机器行为；
-   
-   4. 便于管理，是需提供验证过的轨迹数据即可（轨迹数据采集也很方便，可定期更新）。
-   
-  
-（已完成文档撰写，暂不公布，机会合适再开源）
- # 在线超详细教程（图文并茂）已发表在知乎 简书
- 
-   https://zhuanlan.zhihu.com/p/28492887
-   
-   http://www.jianshu.com/p/3726581d218a
-   
- # 为了下载方便，我也上传了PDF版本供下载~~~
- ## 觉得不错帮忙Star一下
+geetest_break
+Geetest Captcha Crack - Source Code + Crack Manual
+Description: Compared to the method of using selenium to automate the browser that is already available online, this method is more convenient, does not require the installation of additional modules, and only uses Python's native requests and lxml. In addition, the selenium method is too dependent on the browser, and if you are not careful, you will not get the desired movement.
 
-# 真心没想到有这么多人star，谢谢大家！
-最近忙于面试，一直未能一一回复大家，抱歉。
- 有兴趣的可以加群交流：658927203 （不要单独加我）
+Advantages over the selenium method are as follows:
+  1. Easy to install, only requires Python or Anaconda;
 
-# ----------------------------------
-2017.8.22 （开源项目只为技术分享，自我总结，不知道会引起诸多的关注，心情很复杂。希望大家只是用来学习，不要用于商业用途，如果损害到极验和目标网站的利益，并非本意。不再提供技术指导，程序很简单，极验随便改变加密方式，可能就失效，大家也别抱有期望。而且最近为找工作奔波，不想有身外事，见谅。最后，爬虫是技术，不要触碰法律允许之外的事。）
-# note
-本教程+程序只适用于极验5.10.10，2017.11 极验已更新至6.0版本，本教程已失效，只做参考。
+  2. Does not rely on the browser, simulates packet requests, and is fast;
+
+  3. Extremely high recognition rate (using verified trajectory data). I have also tried the selenium method, and even if the slider can be moved to the gap, in many cases it will be recognized as machine behavior by the remote server;
+
+ 4. Easy to manage, only requires verified trajectory data (trajectory data collection is also very convenient and can be updated regularly).
+
+  (Documentation has been completed, but not yet published. Will be open-sourced at an appropriate time.)
+
+Online detailed tutorial (with pictures) has been published on Zhihu and JianShu
+https://zhuanlan.zhihu.com/p/28492887
+
+http://www.jianshu.com/p/3726581d218a
+
+For convenience of download, I have also uploaded a PDF version~~~
+If you find it helpful, please give it a star.
+I really didn't expect so many people to star it, thank you all!
+Recently, I have been busy with interviews and have not been able to reply to everyone one by one, sorry. If you are interested, you can join the group for communication: 658927203 (do not add me separately)
+
+----------------------------------
+2017.8.22 (Open source projects are only for technical sharing and self-summary. I didn't expect it to attract so much attention, and my mood is complicated. I hope everyone uses it for learning purposes only and not for commercial purposes. If it harms the interests of Geetest and the target website, it is not intentional. I will no longer provide technical guidance. The program is very simple, and Geetest can easily change the encryption method, which may cause it to fail. Please do not have high expectations. Also, I have been busy looking for a job recently and don't want to have any trouble. Please understand. Finally, web crawling is a technology, do not touch anything beyond the legal limit.)
+
+Note
+This tutorial + program is only applicable to Geetest 5.10.10. As of November 2017, Geetest has been updated to version 6.0, and this tutorial is no longer valid and is only for reference.
